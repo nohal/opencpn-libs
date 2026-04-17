@@ -11,9 +11,9 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-set(mnav_repo https://github.com/mariokonrad/marnav.git)
+set(mnav_repo https://github.com/nohal/marnav.git)
 # set(mnav_tag v0.14.0)   ## Does not build on gcc12/Bookworm
-set(mnav_tag 01c55205736fcc8157891b84e3efe387a221ff3a)
+set(mnav_tag 4fd0cb8bfe84fdb94de5cbcb255f7af19758de5b)
 
 add_library(_ocpn_marnav_if INTERFACE)
 add_library(ocpn::marnav ALIAS _ocpn_marnav_if)
