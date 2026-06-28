@@ -45,6 +45,7 @@ else ()
   # Set up build options and build.
   #
   set(BUILD_SHARED_LIBS FALSE CACHE BOOL "Build shared libs" FORCE)
+  set(ENABLE_STATIC TRUE CACHE BOOL "Enable static library" FORCE)
   set(ENABLE_TESTS FALSE CACHE BOOL "Enable tests" FORCE)
   set(ENABLE_TOOLS FALSE CACHE BOOL "Build tools" FORCE)
   set(ENABLE_EXAMPLES FALSE CACHE BOOL "Build examples" FORCE)
